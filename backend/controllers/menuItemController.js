@@ -8,7 +8,7 @@ try{
     res.status(200).json(data)     
 }catch(error){
     res.status(500).json(eerror)
-    console.log(eerror);
+    console.log(error);
 }
 }
 
