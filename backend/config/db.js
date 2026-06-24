@@ -4,7 +4,7 @@ const connectDB=async()=>{
 
 try{
 await mongoose.connect("mongodb://127.0.0.1:27017/Hotels");
-console.log("mogodb conneected successfully")
+console.log("mogodb conneected")
 }catch(error){
     console.log(error)
     process.exit(1);
