@@ -44,7 +44,7 @@ try{
     res.status(200).json(data)
 
     if(!person){
-        res.status(404).json({error:"person not found"})
+        res.status(404).json({error:"person not founding"})
     }
 }catch(error){
     console.log(error)
