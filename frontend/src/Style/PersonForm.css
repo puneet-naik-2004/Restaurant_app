@@ -1,0 +1,45 @@
+.person-container {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.person-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.person-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.person-form input,
+.person-form select,
+.person-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.person-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.person-form button {
+  padding: 12px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.person-form button:hover {
+  background: #0056b3;
+}
