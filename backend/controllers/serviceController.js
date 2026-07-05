@@ -42,7 +42,10 @@ exports.deleteService=async(req,res)=>{
     try{
   const data= await service.findByIdAndDelete(req.params.id)
   res.status(200).json(data)
-
+  
+ if(!service){
+            res.status(404).json({error:"not found"})
+         }
   
     }catch(error){
         res.status(400).json(error)
