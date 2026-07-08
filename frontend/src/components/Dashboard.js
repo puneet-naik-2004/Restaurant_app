@@ -16,7 +16,7 @@ const Dashboard = () => {
 
         <Link to="/menu-form" className="card">
           <h2>➕ Add Menu</h2>
-          <p>Add new food and drink juice</p>
+          <p>Add new food and drink juice i reastorent</p>
         </Link>
 
         <Link to="/menu" className="card">
