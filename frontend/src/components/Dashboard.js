@@ -16,12 +16,12 @@ const Dashboard = () => {
 
         <Link to="/menu-form" className="card">
           <h2>➕ Add Menu</h2>
-          <p>Add new food and drink juice i reastorent</p>
+          <p>Add new food and drink juice reastorent</p>
         </Link>
 
         <Link to="/menu" className="card">
           <h2>🍔 View Menu</h2>
-          <p>See all available menu items</p>
+          <p>See all available menu in the items</p>
         </Link>
       </div>
     </div>
