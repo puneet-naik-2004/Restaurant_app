@@ -21,7 +21,7 @@ const Dashboard = () => {
 
         <Link to="/menu" className="card">
           <h2>🍔 View Menu</h2>
-          <p>See all available menu in the items</p>
+          <p>See all available menu </p>
         </Link>
       </div>
     </div>
